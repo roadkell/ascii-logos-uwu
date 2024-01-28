@@ -1,12 +1,12 @@
-## ASCII (actually, Unicode) logos for all your terminal needs — now in colors! 🏳️‍🌈 🏳️‍⚧️ ##
+## ThinkPad ASCII (actually, Unicode) logos for all your terminal needs — now in colors! 🏳️‍🌈 🏳️‍⚧️ ##
 
 ### Important ###
 
 [Queer Svit](https://queersvit.org/) is a black queer-run independent team of volunteers from all over the world. With your support we help LGBTQ+ and BAME people affected by the war and/or political repressions get to safety by providing consultations, purchasing tickets, finding free accommodation and providing humanitarian aid.
 
-‌‌Just like any other catastrophe, war affects the most those who are most vulnerable, including LGBTQ+ and BAME people while at the same time their troubles are often rendered invisible. But because our own team comprises LGBTQ+ and BAME people we see the specific challenges our beneficiaries face and understand how to help them.
+Just like any other catastrophe, war affects the most those who are most vulnerable, including LGBTQ+ and BAME people while at the same time their troubles are often rendered invisible. But because our own team comprises LGBTQ+ and BAME people we see the specific challenges our beneficiaries face and understand how to help them.
 
-‌Your donations make a difference; Queer Svit is run in large part on small donations from individual donors. We are grateful for any and all help to continue our work — thank you!
+Your donations make a difference; Queer Svit is run in large part on small donations from individual donors. We are grateful for any and all help to continue our work — thank you!
 
 ### Neofetch / HyFetch ###
 
