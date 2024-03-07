@@ -18,34 +18,30 @@ Your donations make a difference; Queer Svit is run in large part on small donat
 ### Command line examples ###
 
 ```
-neowofetch --ascii 'path/to/ibm-transpad-v.txt' --ascii_colors '#55CDFD' '#F6AAB7' '#FFFFFF'
+neowofetch --ascii 'color/ibm-transpad-v.txt' --ascii_colors '#FFFFFF' '#55CDFD' '#F6AAB7'
 ```
 ![Neofetch with IBM TransPad logo (vertical)](./screenshots/ibm-transpad-v-full.png?raw=true)
 
 ```
-neowofetch --ascii 'path/to/ibm-transpad-h.txt' --ascii_colors '#55CDFD' '#F6AAB7' '#FFFFFF'
+neowofetch --ascii 'color/ibm-transpad-h.txt' --ascii_colors '#FFFFFF' '#55CDFD' '#F6AAB7'
 ```
 ![IBM TransPad logo (horizontal)](./screenshots/ibm-transpad-h.png?raw=true)
 
 ```
-neowofetch --ascii 'path/to/ibm-twinkpad-h.txt' --ascii_colors '#55CDFD' '#F6AAB7' '#FFFFFF'
+neowofetch --ascii 'color/ibm-twinkpad-h.txt' --ascii_colors '#FFFFFF' '#55CDFD' '#F6AAB7'
 ```
 ![IBM TwinkPad logo (horizontal)](./screenshots/ibm-twinkpad-h.png?raw=true)
 
 ```
-neowofetch --ascii 'path/to/ibm-thiccpad-h.txt' --ascii_colors '#55CDFD' '#F6AAB7' '#FFFFFF'
+neowofetch --ascii 'color/ibm-thiccpad-h.txt' --ascii_colors '#FFFFFF' '#55CDFD' '#F6AAB7'
 ```
 ![IBM ThiccPad logo (horizontal)](./screenshots/ibm-thiccpad-h.png?raw=true)
 
 ### Notes ###
 
-* There are Unicode symbols in use beyond the classic charset of ASCII codepage 437 (notably, [Block Elements](https://en.wikipedia.org/wiki/Block_Elements) and [Symbols for Legacy Computing](https://en.wikipedia.org/wiki/Symbols_for_Legacy_Computing)), so make sure your terminal emulator and font support them. For example, [Unifont Upper](https://unifoundry.com/unifont/index.html) (`fonts-unifont` package in Ubuntu, `font-gnu-unifont` in Homebrew) and [Code2001](https://www.code2001.com/code2001.htm) fonts have the necessary glyphs. If images look distorted, try `*-lowres.txt` versions — they only use symbols from Unicode 1.0-3.2 which are likely supported in all Unicode-enabled environments.
-* If your terminal doesn't have true color support, try color indices like `--ascii_colors 9 14 15` (result depends on your palette). Also, colorless versions are available in the `bw` subfolder.
+* If your terminal or your `*fetch` program doesn't support true color, try color indices like `--ascii_colors 15 14 9` (result depends on your palette). Versions without color tags are available in `*-bw` subfolder.
+* Default versions use Unicode characters beyond the charset of [code page 437](https://en.wikipedia.org/wiki/Code_page_437) (notably, [Block Elements](https://en.wikipedia.org/wiki/Block_Elements) and [Box Drawing](https://en.wikipedia.org/wiki/Box_Drawing)), so make sure your terminal emulator and font support them. For nostalgia purposes, `*-lowres` are blockier versions restricted to the classic CP437 charset (though still coded in Unicode for compatibility).
 * Enjoy!
-
-### To do ###
-
-* Make low-res versions restricted to the charset of ASCII CP437.
 
 ### Legal disclaimer ###
 
