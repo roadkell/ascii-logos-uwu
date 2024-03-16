@@ -37,6 +37,20 @@ neowofetch --ascii 'color/ibm-thiccpad-h.txt' --ascii_colors '#FFFFFF' '#55CDFD'
 ```
 ![IBM ThiccPad logo (horizontal)](./screenshots/ibm-thiccpad-h.png?raw=true)
 
+```
+neowofetch --ascii 'color/thiccpad-v.txt' --ascii_colors '#e32726' '#ffffff'
+neowofetch --ascii 'color/thiccpad-h.txt' --ascii_colors '#e32726' '#ffffff'
+```
+![ThiccPad logo (vertical)](./screenshots/thiccpad-v.png?raw=true)
+![ThiccPad logo (horizontal)](./screenshots/thiccpad-h.png?raw=true)
+
+```
+neowofetch --ascii 'color/pinkpad-v.txt' --ascii_colors '#ff66cc' '#ffffff'
+neowofetch --ascii 'color/pinkpad-h.txt' --ascii_colors '#ff66cc' '#ffffff'
+```
+![PinkPad logo (vertical)](./screenshots/pinkpad-v.png?raw=true)
+![PinkPad logo (horizontal)](./screenshots/pinkpad-h.png?raw=true)
+
 ### Notes ###
 
 * If your terminal or your `*fetch` program doesn't support true color, try color indices like `--ascii_colors 15 14 9` (result depends on your palette). Versions without color tags are available in `*-bw` subfolder.
