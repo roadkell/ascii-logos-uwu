@@ -53,8 +53,8 @@ neowofetch --ascii 'color/pinkpad-h.txt' --ascii_colors '#ff66cc' '#ffffff'
 
 ### Notes ###
 
-* If your terminal or your `*fetch` program doesn't support true color, try color indices like `--ascii_colors 15 14 9` (result depends on your palette). Versions without color tags are available in `*-bw` subfolder.
-* Default versions use Unicode characters beyond the charset of [code page 437](https://en.wikipedia.org/wiki/Code_page_437) (notably, [Block Elements](https://en.wikipedia.org/wiki/Block_Elements) and [Box Drawing](https://en.wikipedia.org/wiki/Box_Drawing)), so make sure your terminal emulator and font support them. For nostalgia purposes, `*-lowres` are blockier versions restricted to the classic CP437 charset (though still coded in Unicode for compatibility).
+* If your terminal or your `*fetch` program doesn't support true color, try color indices like `--ascii_colors 15 14 9` for classic IBM logos and `--ascii_colors 1 15` for modern ones (result depends on your palette). Versions without color tags are available in `*-bw` subfolders.
+* Default versions use Unicode characters beyond the charset of [code page 437](https://en.wikipedia.org/wiki/Code_page_437) (notably, [Block Elements](https://en.wikipedia.org/wiki/Block_Elements) and [Box Drawing](https://en.wikipedia.org/wiki/Box_Drawing)), so make sure your terminal emulator and font support them. For nostalgia purposes, `cp437-*` folders contain blockier versions restricted to the classic CP437 charset (though still coded in Unicode for compatibility).
 * Enjoy!
 
 ### Legal disclaimer ###
